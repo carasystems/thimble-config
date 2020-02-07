@@ -1,4 +1,5 @@
 {
+  "app": "thimble-config",
   "k1": {
     "k1a": "abc",
     "k1b": 123
