@@ -1,6 +1,6 @@
 {
   "name": "config",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "config library for thimble",
   "author": {
     "name": "d2bot",
@@ -8,22 +8,22 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "test": "NODE_ENV=test mocha --exit --harmony --require should --reporter spec",
+    "test": "NODE_ENV=test mocha --reporter spec",
     "lint": "eslint ."
   },
   "license": "MIT",
   "dependencies": {
-    "config": "^3.2.4"
+    "config": "^3.2.4",
+    "aws-sdk": "^2.612.0",
+    "deasync": "^0.1.19"
   },
   "devDependencies": {
     "eslint": "^6.5.1",
-    "eslint-config-airbnb": "^17.1.1",
-    "eslint-plugin-import": "^2.18.2",
-    "mocha": "^5.0.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.20.0",
+    "mocha": "^7.0.0",
     "chai": "^4.2.0",
-    "chai-spies": "^1.0.0",
-    "supertest": "^4.0.2",
-    "should": "^13.2.3",
-    "co": "^4.6.0"
+    "sinon": "^8.1.1"
   }
 }
